@@ -12,7 +12,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Absen Cerdas',
-      theme: ThemeData(primarySwatch: Colors.blue, fontFamily: 'Roboto'),
+      theme: ThemeData(primarySwatch: Colors.red, fontFamily: 'Roboto'),
       home: LoginScreen(),
       debugShowCheckedModeBanner: false,
     );
